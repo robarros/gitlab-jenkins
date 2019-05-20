@@ -8,7 +8,7 @@ services:
     environment:
     - TZ=America/Sao_Paulo
     - GITLAB_HTTPS=false
-      GITLAB_OMNIBUS_CONFIG: |
+    - GITLAB_OMNIBUS_CONFIG: |
         external_url 'http://localhost:8000'
         gitlab_rails['gitlab_shell_ssh_port'] = 2224
         
