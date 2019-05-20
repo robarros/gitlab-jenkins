@@ -30,9 +30,9 @@ services:
       - 'jenkins_home:/var/jenkins_home'
 
 volumes:
-  gitlab-data:
-  gitlab-logs:
   gitlab-config:
+  gitlab-logs:
+  gitlab-data:
   jenkins_home:
 
 networks:
