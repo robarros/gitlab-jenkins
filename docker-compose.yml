@@ -7,12 +7,10 @@ services:
     hostname: 'gitlab'
     environment:
     - TZ=America/Sao_Paulo
-    - GITLAB_HOST=localhost
-    - GITLAB_SSH_PORT=2222
     ports:
       - '8000:80'
       - '8443:443'
-      - '2222:2222'
+      - '2222:22'
     networks:
       - gitlab-network
     volumes:
