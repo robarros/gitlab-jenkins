@@ -32,7 +32,7 @@ services:
       - 'jenkins_home:/var/jenkins_home'
 
   sonarqube:
-    image: 'sonarqube:7.6-community'
+    image: 'sonarqube:latest'
     hostname: 'sonarqube'
     ports:
       - '9000:9000'
