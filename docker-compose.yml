@@ -14,7 +14,7 @@ services:
     ports:
       - '8000:8000'
       - '8443:8443'
-      - '2222:22'
+      - '2222:2222'
     networks:
       - gitlab-network
     volumes:
